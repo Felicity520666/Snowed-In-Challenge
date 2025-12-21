@@ -48,5 +48,22 @@ label start:
     s "Although this is a REALLY huge snowstorm..."
     s "But I, Sheldon, will not fear and will follow through with the exact same plans I had for today!"
     s "Yes! I will go dress up warm and go to Macdonalds for breakfast!"
+    stop music fadeout 1.0
+    scene min with fade
+    play music "later.mp3"
+    pause 2.5
+    scene door with fade
+    play music "My Project.mp3"
+    pause 1.5
+    s "What the hecky-hec is happening?!"
+    s "Why can't I open this door?"
+    scene scared
+    s "Am I... snowed in?!"
+    s "No!!!"
+    s "I can't carry out my plan! I'm stuck at home!"
+    s "I'll have to stay in this ugly house for... who knows how mnay days..."
+    s "Oh no! This is the end of my life!!!"
+    s "Sorry Pudding, my cute hamster... if I run out of food, I may have to sacrifice you 😭"
+    s "Please don't hate your beloved owner!"
     return
     
