@@ -35,6 +35,7 @@ label start:
     scene pretty with fade
     pause 3.5
     s "Such a pretty day!"
+    s "Look at those cute and gentle snowflakes!"
     s "Perfect for my pla-"
     scene huge
     play sound "winter-breeze-404248.mp3" volume 2.5
@@ -57,13 +58,24 @@ label start:
     pause 1.5
     s "What the hecky-hec is happening?!"
     s "Why can't I open this door?"
-    scene scared
     s "Am I... snowed in?!"
     s "No!!!"
     s "I can't carry out my plan! I'm stuck at home!"
-    s "I'll have to stay in this ugly house for... who knows how mnay days..."
+    s "I'll have to stay in this ugly house for... who knows how many days..."
     s "Oh no! This is the end of my life!!!"
     s "Sorry Pudding, my cute hamster... if I run out of food, I may have to sacrifice you 😭"
     s "Please don't hate your beloved owner!"
+    s "But anyway, let me check first to see I much food I have."
+    stop music fadeout 2.0
+    scene close with dissolve
+    play sound "sing.mp3"
+    pause 2.5
+    scene open with fade
+    play sound "door-open-46756.mp3"
+    pause 3.0
+    scene out with dissolve
+    play sound "sing.mp3"
+    pause 3.5
+    play music "funny-cartoon-music-412765.mp3"
     return
     
