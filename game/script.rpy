@@ -45,7 +45,7 @@ label start:
     s "Huh?! What...What just happened?"
     s "Why's there so much snow all of a sudden?"
     s "Oh no... I can't go outside in a snowstorm like this..."
-    s "Will... I can't let this snowstorm ruin my day!"
+    s "Well... I can't let this snowstorm ruin my day!"
     s "Although this is a REALLY huge snowstorm..."
     s "But I, Sheldon, will not fear and will follow through with the exact same plans I had for today!"
     s "Yes! I will go dress up warm and go to Macdonalds for breakfast!"
@@ -74,7 +74,7 @@ label start:
     play sound "door-open-46756.mp3"
     pause 3.0
     scene out with dissolve
-    play sound "sing.mp3"
+    play sound "metal-thud-6034.mp3"
     pause 3.5
     play music "funny-cartoon-music-412765.mp3"
     return
