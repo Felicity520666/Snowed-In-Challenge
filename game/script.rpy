@@ -59,23 +59,70 @@ label start:
     s "What the hecky-hec is happening?!"
     s "Why can't I open this door?"
     s "Am I... snowed in?!"
+    play sound "no-96018.mp3" volume 2.2
     s "No!!!"
     s "I can't carry out my plan! I'm stuck at home!"
     s "I'll have to stay in this ugly house for... who knows how many days..."
     s "Oh no! This is the end of my life!!!"
+    stop music fadeout 0.5
+    scene sad with fade
+    play music "old-house-161057.mp3" fadein 1.0
     s "Sorry Pudding, my cute hamster... if I run out of food, I may have to sacrifice you 😭"
     s "Please don't hate your beloved owner!"
+    s "I will always remember the lovely times we had together..."
+    s "The memories of me cleaning up after you, your little workouts on the hamster wheel, your tiny muscles..."
+    s "Oh... I can't continue... 😢"
+    s "You will be cherished in my heart, always..."
+    stop music fadeout 0.5
     s "But anyway, let me check first to see I much food I have."
     stop music fadeout 2.0
     scene close with dissolve
     play sound "sing.mp3"
-    pause 2.5
-    scene open with fade
+    pause 2.0
     play sound "door-open-46756.mp3"
-    pause 3.0
+    pause 0.5
+    scene open with fade
+    pause 0.5
     scene out with dissolve
     play sound "metal-thud-6034.mp3"
     pause 3.5
     play music "funny-cartoon-music-412765.mp3"
+    pause 2.3
+    scene pudding with fade
+    s "Okay Pudding, I have good news."
+    s "We have more than enough food, so I'll survive -- and you will too!"
+    s "So don't worry, you will live!"
+    s "And you know what?"
+    s "I get to spend the whole time with you!"
+    s "Are you excited, Pudding?"
+    s "Let's start by making breakfast and wacting TV together!"
+    pause 1.0
+    play music "later.mp3"
+    scene hour with fade
+    pause 2.7
+    play music "funny-cartoon-music-412765.mp3"
+    scene pudding with dissolve
+    s "So, what do you think, Pudding?"
+    s "Are you having fun so far?"
+    s "Do you think the snow has melt much?"
+    s "I'll go try to open the door -- hopefully it works!"
+    scene door with fade
+    play sound "My Project.mp3"
+    pause 4.5
+    scene more with fade
+    play music "nebula-135416.mp3"
+    play sound "walking-in-water-199418.mp3"
+    pause 1.0
+    scene water with fade
+    pause 1.0
+    scene form with fade
+    pause 1.0 
+    scene monster with fade
+    play sound "monster-growl-376892.mp3"
+    pause 3.5
+    play music "funny-music-319843.mp3"
+    
+
+
     return
     

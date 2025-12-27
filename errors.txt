@@ -2,8 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 43: unterminated string literal
-    s "Yes! I will go dress up warm and go to Macdonalds for breakfast!""
+File "game/script.rpy", line 62: end of line expected.
+    plau sound "no-96018.mp3" volume 2.2
+                              ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Sat Dec 13 19:32:05 2025
+Thu Dec 25 13:07:23 2025
