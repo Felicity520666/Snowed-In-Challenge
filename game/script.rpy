@@ -124,14 +124,21 @@ label start:
     play sound "monster-growl-376892.mp3"
     pause 3.5
     scene danger with fade
-    play sound "hap.mp3"
-    pause 1.0
-    scene see with fade
-    play sound "see.mp3" volume 2.5
+    play sound "hap.mp3" volume 2.5
+    pause 3.0
+    scene turn with fade
+    play sound "see.mp3" volume 5.5
     s "Oh my god! What is this monster thing!"
     s "Is it made of water that came through the crack in the door?"
-    scene 
+    s "Oh, I need a weapon!"
+    scene waepon with fade 
     play music "funny-music-319843.mp3"
+    s "Should I use a mop or paper towels?"
+    menu:
+        "Mop":
+            jump mop
+        "Tissue Paper":
+            jump paper
     
 
 
