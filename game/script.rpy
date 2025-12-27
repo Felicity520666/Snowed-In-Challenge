@@ -108,7 +108,10 @@ label start:
     s "I'll go try to open the door -- hopefully it works!"
     scene door with fade
     play sound "My Project.mp3"
-    pause 4.5
+    pause 2.0
+    s "Ah! I can only push this door open a small crack with all my strength, but it seems like I still can't get out..."
+    s "Never mind, I'll just continue playing with Pudding."
+    pause 0.5
     scene more with fade
     play music "nebula-135416.mp3"
     play sound "walking-in-water-199418.mp3"
@@ -120,6 +123,14 @@ label start:
     scene monster with fade
     play sound "monster-growl-376892.mp3"
     pause 3.5
+    scene danger with fade
+    play sound "hap.mp3"
+    pause 1.0
+    scene see with fade
+    play sound "see.mp3" volume 2.5
+    s "Oh my god! What is this monster thing!"
+    s "Is it made of water that came through the crack in the door?"
+    scene 
     play music "funny-music-319843.mp3"
     
 
