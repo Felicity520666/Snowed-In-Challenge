@@ -132,15 +132,58 @@ label start:
     s "Is it made of water that came through the crack in the door?"
     s "Oh, I need a weapon!"
     scene waepon with fade 
-    play music "funny-music-319843.mp3"
+    play music "funny-music-319843.mp3" volume 0.55 fadein 1.0
     s "Should I use a mop or paper towels?"
     menu:
         "Mop":
             jump mop
         "Tissue Paper":
             jump paper
-    
+    label mop:
+        s "Yeah! Using a mop is a good choice!"
+        s "I can soak up the water with the mop!"
+        scene mop with fade
+        play sound "epic-swish-346115.mp3"
+        pause 3.5
+        scene tidy with fade
+        play sound "slurp-76969.mp3"
+        pause 2.5
+        scene cotton with fade
+        s "Oh! Pudding is helping me fight too!"
+        s "It's using its hamster cotton to help me soak up the water monster!"
+        scene waepon with fade
+        s "Mission accomplished!"
+        s "We've beaten the water monster!"
+        s "Yeah! Great job, Pudding!"
+        s "Tonight, I'll give you extra hamster food!"
+        scene end with fade
+        stop music fadeout 1.0
+        play sound "happy-logo-13397.mp3"
+        pause 5.0
+        return
 
+    label paper:
+        s "Great choice! I can use the paper towel to soak up the water!"
+        scene paper with dissolve
+        play sound "swish-sound-94707.mp3" volume 19.6
+        pause 1.5
+        play sound "swish-sound-94707.mp3" volume 19.6
+        pause 1.5
+        scene towel with fade
+        play sound "slurp-76969.mp3" volume 3.3
+        pause 4.0
+        scene cotton with fade
+        s "Oh! Pudding is helping me fight too!"
+        s "It's using its hamster cotton to help me soak up the water monster!"
+        scene waepon with dissolve
+        s "Mission accomplished!"
+        s "We've beaten the water monster!"
+        s "Yeah! Great job, Pudding!"
+        s "Tonight, I'll give you extra hamster food!"
+        scene end with fade
+        stop music fadeout 1.0
+        play sound "happy-logo-13397.mp3"
+        pause 5.0
+        return 
 
-    return
     
