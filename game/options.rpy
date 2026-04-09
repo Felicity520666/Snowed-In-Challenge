@@ -18,7 +18,7 @@ define config.name = _("Snowed In Challenge")
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
@@ -150,7 +150,7 @@ define config.save_directory = "SnowedInChallenge-1764896895"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/main_menu.png"
 
 
 ## Build configuration #########################################################

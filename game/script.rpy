@@ -25,7 +25,7 @@ label start:
     s "Ahhh-hahhhh"
     s "What a wonderful sleep!"
     s "I feel refreshed and ready for my wonderful day!"
-    s "I think I'll go have breakfast at Macdonalds, do the Christmas shopping with my friends, and then go visit my grandparents!"
+    s "I think I'll go have breakfast at McDonald's, do the Christmas shopping with my friends, and then go visit my grandparents!"
     s "Ah! Only thinking about it makes me even more excited!"
     s "Let me go open the curtains to let the sunshine in!"
     scene window with dissolve
@@ -42,13 +42,13 @@ label start:
     pause 2.5
     show no at smallright with dissolve
     play sound "preview.mp3" volume 2.0
-    s "Huh?! What...What just happened?"
+    s "Huh?! What... what just happened?"
     s "Why's there so much snow all of a sudden?"
     s "Oh no... I can't go outside in a snowstorm like this..."
     s "Well... I can't let this snowstorm ruin my day!"
     s "Although this is a REALLY huge snowstorm..."
     s "But I, Sheldon, will not fear and will follow through with the exact same plans I had for today!"
-    s "Yes! I will go dress up warm and go to Macdonalds for breakfast!"
+    s "Yes! I will get dressed warmly and go to McDonald's for breakfast!"
     stop music fadeout 1.0
     scene min with fade
     play music "later.mp3"
@@ -56,7 +56,7 @@ label start:
     scene door with fade
     play music "My Project.mp3"
     pause 1.5
-    s "What the hecky-hec is happening?!"
+    s "What the hecky-heck is happening?!"
     s "Why can't I open this door?"
     s "Am I... snowed in?!"
     play sound "no-96018.mp3" volume 2.2
@@ -74,7 +74,7 @@ label start:
     s "Oh... I can't continue... 😢"
     s "You will be cherished in my heart, always..."
     stop music fadeout 0.5
-    s "But anyway, let me check first to see I much food I have."
+    s "But anyway, let me check first to see how much food I have."
     stop music fadeout 2.0
     scene close with dissolve
     play sound "sing.mp3"
@@ -89,13 +89,14 @@ label start:
     play music "funny-cartoon-music-412765.mp3"
     pause 2.3
     scene pudding with fade
-    s "Okay Pudding, I have good news."
+    play sound "ahem.mp3" volume 3.6
+    s "{i}Ahem{/i}... okay Pudding, I have good news."
     s "We have more than enough food, so I'll survive -- and you will too!"
     s "So don't worry, you will live!"
     s "And you know what?"
     s "I get to spend the whole time with you!"
     s "Are you excited, Pudding?"
-    s "Let's start by making breakfast and wacting TV together!"
+    s "Let's start by making breakfast and watching TV together!"
     pause 1.0
     play music "later.mp3"
     scene hour with fade
@@ -104,7 +105,7 @@ label start:
     scene pudding with dissolve
     s "So, what do you think, Pudding?"
     s "Are you having fun so far?"
-    s "Do you think the snow has melt much?"
+    s "Do you think the snow has melted much?"
     s "I'll go try to open the door -- hopefully it works!"
     scene door with fade
     play sound "My Project.mp3"
@@ -152,6 +153,7 @@ label start:
         s "Oh! Pudding is helping me fight too!"
         s "It's using its hamster cotton to help me soak up the water monster!"
         scene waepon with fade
+        play sound "success.mp3" volume 8.9
         s "Mission accomplished!"
         s "We've beaten the water monster!"
         s "Yeah! Great job, Pudding!"
@@ -170,12 +172,13 @@ label start:
         play sound "swish-sound-94707.mp3" volume 19.6
         pause 1.5
         scene towel with fade
-        play sound "slurp-76969.mp3" volume 3.3
+        play sound "slurp-76969.mp3" volume 1.3
         pause 4.0
         scene cotton with fade
         s "Oh! Pudding is helping me fight too!"
         s "It's using its hamster cotton to help me soak up the water monster!"
         scene waepon with dissolve
+        play sound "success.mp3" volume 8.9
         s "Mission accomplished!"
         s "We've beaten the water monster!"
         s "Yeah! Great job, Pudding!"

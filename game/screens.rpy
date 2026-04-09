@@ -293,7 +293,7 @@ screen navigation():
         style_prefix "navigation"
 
         xpos gui.navigation_xpos
-        yalign 0.5
+        yalign 0.7
 
         spacing gui.navigation_spacing
 
@@ -309,7 +309,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Prefs") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -358,8 +358,8 @@ screen main_menu():
     add gui.main_menu_background
 
     ## This empty frame darkens the main menu.
-    frame:
-        style "main_menu_frame"
+    #frame:
+        #style "main_menu_frame"
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
